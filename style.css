@@ -1,4 +1,3 @@
-/* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /* Local variables */
@@ -64,7 +63,7 @@ main {
 
 .card img {
   /* height: auto; */
-  width: 270px;
+  width: 278px;
   aspect-ratio: 1;
   border-radius: var(--border-radius);
 }
