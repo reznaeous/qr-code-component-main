@@ -54,6 +54,7 @@ main {
   margin-inline: auto;
   text-align: center;
   padding: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -62,7 +63,9 @@ main {
 }
 
 .card img {
-  height: auto;
+  /* height: auto; */
+  width: 288px;
+  aspect-ratio: 1;
   border-radius: var(--border-radius);
 }
 
