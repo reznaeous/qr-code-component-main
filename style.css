@@ -63,7 +63,7 @@ main {
 
 .card img {
   /* height: auto; */
-  width: 278px;
+  width: 288px;
   aspect-ratio: 1;
   border-radius: var(--border-radius);
 }
