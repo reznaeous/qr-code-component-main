@@ -47,8 +47,10 @@ main {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  max-width: 35ch;
+  max-width: 40ch;
   background-color: white;
   border-radius: calc(var(--border-radius) * 2);
   box-shadow: 0px 19px 24px 3px rgba(0, 0, 0, 0.15);
@@ -56,15 +58,11 @@ main {
   margin-inline: auto;
   text-align: center;
   padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 .card > * {
   margin-block: 0;
-  text-wrap: balance;
-}
-
-.card p:last-child {
-  padding-bottom: 1rem;
 }
 
 .card img {
@@ -74,11 +72,19 @@ main {
 
 .card-header {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 120%;
 }
 
 .card-text {
   color: var(--clr-slate-500);
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
+
+.card-content {
+  padding-inline: 0.5em;
 }
 
 .attribution {
