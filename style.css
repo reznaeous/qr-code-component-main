@@ -2,8 +2,8 @@
 
 /* Local variables */
 :root {
-  --border-radius: 8px;
-  --font-size-base: 15px;
+  --border-radius: 0.5rem;
+  --font-size-base: 16px;
   --image-padding: 1.2rem;
   --clr-slate-300: hsl(212, 45%, 89%);
   --clr-slate-500: hsl(216, 15%, 48%);
@@ -55,7 +55,7 @@ main {
   text-align: center;
   padding: 1rem;
   /* padding-top: 1rem; */
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .card > * {
